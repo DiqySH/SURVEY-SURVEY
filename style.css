@@ -1,0 +1,43 @@
+main {
+    background-color: indianred;
+    width: fit-content;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 64px;
+    padding-right: 64px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+label {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.i {
+    display: inline;
+}
+
+.s {
+    display: block;
+}
+
+form {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form {
+    width: fit-content;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: 1;
+}
+
+h1 {
+    text-align: center;
+}
+
