@@ -1,5 +1,5 @@
 main {
-    background-color: indianred;
+    background-color: rgba(29, 26, 26, 0.7);
     width: fit-content;
     height: fit-content;
     margin-left: auto;
@@ -14,10 +14,13 @@ label {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    font-family: "Roboto", serif;
+    color: white;
 }
 
 .i {
     display: inline;
+    font-size: 15px;
 }
 
 .s {
@@ -40,11 +43,15 @@ form {
 
 h1 {
     text-align: center;
+    font-family: "Source Code Pro", serif;
+    color: white;
 }
 
 input[type=text] {
     width: 250px;
     height: 25px;
+    border-color: white;
+    border-radius: 2.5px;
 }
 
 textarea {
@@ -52,6 +59,9 @@ textarea {
     min-width: 250px;
     max-height: 50px;
     min-height: 50px;
+    font-family: "Roboto", serif;
+    border-color: white;
+    border-radius: 2.5px;
 }
 
 select {
@@ -59,7 +69,10 @@ select {
     min-width: 250px;
     max-height: 25px;
     min-height: 25px;
-
+    font-size: 15px;
+    font-family: "Roboto", serif;
+    border-color: white;
+    border-radius: 2.5px;
 }
 
 input[type=submit] {
@@ -74,4 +87,15 @@ input[type=submit] {
 
 input[type=number] {
     height: 25px;
+    border-color: white;
+    border-radius: 2.5px;
+}
+
+::placeholder {
+    font-family: "Roboto", serif;
+    font-size: 15px;
+}
+
+body {
+    background-image: url(https://images.wallpaperscraft.com/image/single/vintage_black_light_9652_1600x900.jpg);
 }
