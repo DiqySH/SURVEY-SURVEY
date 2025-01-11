@@ -35,9 +35,43 @@ form {
     margin-left: auto;
     margin-right: auto;
     align-content: 1;
+    line-height: 28px;
 }
 
 h1 {
     text-align: center;
 }
 
+input[type=text] {
+    width: 250px;
+    height: 25px;
+}
+
+textarea {
+    max-width: 250px;
+    min-width: 250px;
+    max-height: 50px;
+    min-height: 50px;
+}
+
+select {
+    max-width: 250px;
+    min-width: 250px;
+    max-height: 25px;
+    min-height: 25px;
+
+}
+
+input[type=submit] {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 20px;
+}
+
+input[type=number] {
+    height: 25px;
+}
