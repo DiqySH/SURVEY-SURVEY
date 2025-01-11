@@ -52,6 +52,8 @@ input[type=text] {
     height: 25px;
     border-color: white;
     border-radius: 2.5px;
+    font-family: "Roboto", serif;
+    
 }
 
 textarea {
@@ -83,12 +85,18 @@ input[type=submit] {
     padding-left: 10px;
     padding-right: 10px;
     margin-top: 20px;
+    font-family: "Roboto", serif;
+    background-color: white;
+    color: black;
+    border-radius: 2.5px;
+    border-color: white;
 }
 
 input[type=number] {
     height: 25px;
     border-color: white;
     border-radius: 2.5px;
+    font-family: "Roboto", serif;
 }
 
 ::placeholder {
